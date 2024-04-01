@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.body {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.pageContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-top: 100px;
+}
+
+.element-first {
+	width: 624px;
+  height: 618px;
+	/* background-color: #ededed; */
+	font-size: 45px;
+	/* border-top:1px solid #FFDD59; */
+	padding-top:155px;
+	padding-left:0px;
+}
+
+.element {
+	width: 284px;
+	/* background-color: #ededed; */
+	font-size: 45px;
+	/* border-top:1px solid #FFDD59; */
+	padding-top:155px;
+	padding-left:10px;
+}
+
+.navbar-fixed-top {
+	display: fixed;
+  top: 0;
+}
+
+.element.no-padding{
+	padding-top:0;
+}
+
+.active {
+	color:red !important;
+}
+.special-text{
+  font-style:italic;
+  font-family:"Denton Condensed Test";
+  font-size:70px;
+  line-height:67.2px;
+  font-weight: 100;
+  
+}
+.small-element{
+  display: none;
+  /* display: ; */
+}
+.first-text{
+  font-size: 80px;
+  font-family: "PP Neue Montreal";
+  font-weight: 400;
+  line-height: 67.2px;
+}
+.header{
+  height: 50px;
+}
+.small-header{
+  height: 100px;
+  display: none;
+}
+@media (max-width: 1400px) {
+
+  .first-text {
+    font-size: 60px;
+  }
+  .special-text {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .first-text {
+    font-size: 40px;
+  }
+  .special-text {
+    font-size: 40px;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .first-text {
+    font-size: 40px;
+  }
+  .special-text {
+    font-size: 40px;
+  }
+  .element-first{
+    display: none;
+  }
+  .element {
+    padding-top: 200px !important;
+  }
+  .small-element {
+    display: block;
+  }
+  .last-element1{
+    padding-top: 200px !important;
+  }
+  .last-element2{
+    padding-top: 200px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .header{
+    display: none;
+  }
+  .first-text{
+    font-size: 30px;
+  }
+  .special-text {
+    font-size: 30px;
+  }
+  .header{
+    display: none;
+
+  }
+  .small-header {
+    display: flex;
+  }
+}

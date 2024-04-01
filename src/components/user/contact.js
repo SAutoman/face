@@ -353,7 +353,7 @@ const Contact = () => {
                         <p className=" text-2xl gap-10 pb-8">Professional facial assessments and clear facial changes 
                         visualisation.</p>
 
-                        <button className="flex justify-around items-center bg-slate-400 transition ease-in-out duration-300 border-2 border- text-white w-[312px] h-[60px]  hover:bg-[#ffdd59] bg-transparent text-primary hover:text-black">ALL REPORTS<FontAwesomeIcon icon={faArrowRight} /></button>
+                        <button className="flex justify-around items-center bg-slate-700 transition ease-in-out duration-300 border-2 border- text-white w-[312px] h-[60px]  hover:bg-[#ffdd59] bg-transparent text-primary hover:text-black">ALL REPORTS<FontAwesomeIcon icon={faArrowRight} /></button>
 
               </Element>
           </div>
